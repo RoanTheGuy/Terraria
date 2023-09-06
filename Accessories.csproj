@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>Accessories</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Items\Sword.png" />
+    <None Remove="Items\Accessories\" />
+    <None Remove="Items\Accessories\Amulets\" />
+    <None Remove="Items\Weapons\" />
+    <None Remove="Items\Other\" />
+    <None Remove="Items\Accessories\Boots\" />
+    <None Remove="Projectiles\" />
+    <None Remove="Items\Proj\" />
+    <None Remove="Items\Proj\ProjImages\" />
+    <None Remove="Items\Weapons\WeaponImages\" />
+    <None Remove="Items\Weapons\WindCast %28copy%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Items\Accessories\" />
+    <Folder Include="Items\Accessories\Amulets\" />
+    <Folder Include="Items\Weapons\" />
+    <Folder Include="Items\Other\" />
+    <Folder Include="Items\Accessories\Boots\" />
+    <Folder Include="Projectiles\" />
+    <Folder Include="Items\Proj\" />
+    <Folder Include="Items\Proj\ProjImages\" />
+    <Folder Include="Items\Weapons\WeaponImages\" />
+  </ItemGroup>
+</Project>

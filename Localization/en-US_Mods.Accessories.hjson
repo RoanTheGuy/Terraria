@@ -1,0 +1,197 @@
+Items: {
+	WoodenAmulet: {
+		DisplayName: Wooden Amulet
+		Tooltip:
+			'''
+			Tier I Amulet
+			Increases movement speed by 1.05x and +5 max life
+
+			'''
+	}
+
+	AcornStaff: {
+		DisplayName: Acorn Staff
+		Tooltip: Uses acorns as ammo
+	}
+
+	WebStaff: {
+		DisplayName: Web Staff
+		Tooltip: Uses cobweb as ammo
+	}
+
+	HellFireRod: {
+		DisplayName: HellFire Rod
+		Tooltip: Ignores Defense
+	}
+
+	StoneAmulet: {
+		DisplayName: Stone Amulet
+		Tooltip:
+			'''
+			Tier II Amulet
+			Increases movement speed by 1.1x and +5 max life
+			Increases Crit Chance by 1%
+
+			'''
+	}
+
+	ShadowRod: {
+		DisplayName: Shadow Rod
+		Tooltip: ""
+	}
+
+	JungleBoots: {
+		DisplayName: Jungle Boots
+		Tooltip:
+			'''
+			Allows fast running, high jumping and flight
+			Grants the user a double jump and immunity to fall damage
+			'Put this on and frogs will get jealous'
+
+			'''
+	}
+
+	OceanBoots: {
+		DisplayName: Ocean Boots
+		Tooltip:
+			'''
+			Allows fast running and swift movement through liquids
+			Grants the user the ability to walk on water and honey
+			'Put this on and fish will get jealous'
+
+			'''
+	}
+
+	Band: {
+		DisplayName: Band
+		Tooltip: 1 defense
+	}
+
+	HellfireTrident: {
+		DisplayName: HellFire Trident
+		Tooltip: Right-click to throw!
+	}
+
+	Shadowflame: {
+		DisplayName: Shadowflame
+		Tooltip: The Flame used by the Goblin Army
+	}
+
+	ShadowflameCane: {
+		DisplayName: Shadowflame Cane
+		Tooltip: ""
+	}
+
+	Flashbang: {
+		DisplayName: Flashbang
+		Tooltip: Stuns enemies and leaves a smoke cloud
+	}
+
+	BrokenProbe: {
+		DisplayName: Broken Probe
+		Tooltip: ""
+	}
+
+	LaserLens: {
+		DisplayName: Laser Lens
+		Tooltip: ""
+	}
+
+	LaserGun: {
+		DisplayName: Laser Gun
+		Tooltip: ""
+	}
+
+	BrokenPrimeLaser: {
+		DisplayName: Broken Prime Laser
+		Tooltip: ""
+	}
+
+	ShadowNebuliumBar: {
+		Tooltip: The things this bar can do to magic are incomprehensible
+		DisplayName: Shadow Nebulium Bar
+	}
+
+	DarkStar: {
+		Tooltip: Shoots a devasting pulse in every direction
+		DisplayName: Dark Star
+	}
+
+	BookOfNeedles: {
+		Tooltip: "'Cacti + Magic = this'"
+		DisplayName: Book Of Needles
+	}
+
+	WindCast: {
+		DisplayName: Wind Cast
+		Tooltip: ""
+	}
+
+	MoonBlade: {
+		DisplayName: Moon Blade
+		Tooltip: Shoots moons
+	}
+
+	FrostWand: {
+		DisplayName: Frost Wand
+		Tooltip: Shoots frost projectiles in an arc formation
+	}
+
+	CursedLens: {
+		DisplayName: Cursed Lens
+		Tooltip:
+			'''
+			Immunity to the cursed inferno debuff
+			Grants the user the ability to inflict cursed flames
+
+			'''
+	}
+
+	FireThorn: {
+		DisplayName: Fire Thorn
+		Tooltip: ""
+	}
+
+	Waverang: {
+		DisplayName: Waverang
+		Tooltip: ""
+	}
+
+	CrimsonScepter: {
+		DisplayName: Crimson Scepter
+		Tooltip: ""
+	}
+
+	ObsidianFists: {
+		DisplayName: Obsidian Fists
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	Woodenproj.DisplayName: Woodenproj
+	AcornProj.DisplayName: Acorn Proj
+	WebProj.DisplayName: Web Proj
+	HellFireProj.DisplayName: Hell Fire Proj
+	ShadowProj.DisplayName: Shadow Proj
+	HellfireShortswordProj.DisplayName: Hellfire Shortsword Proj
+	HellfireShortswordProjA.DisplayName: Hellfire Shortsword Proj A
+	HellfireShortswordProjB.DisplayName: Hellfire Shortsword Proj B
+	HellfireTridentProjA.DisplayName: Hellfire Trident Proj A
+	HellfireTridentProjB.DisplayName: Hellfire Trident Proj B
+	FrostStaffProjA.DisplayName: Frost Staff Proj A
+	FrostStaffProjB.DisplayName: Frost Staff Proj B
+	FrostStaffProjC.DisplayName: Frost Staff Proj C
+	ShadowflameProj.DisplayName: Shadowflame Proj
+	FlashbangProj.DisplayName: Flashbang Proj
+	LaserGunProj.DisplayName: Laser Gun Proj
+	DarkStarProjA.DisplayName: Dark Star Proj A
+	DarkStarProjB.DisplayName: Dark Star Proj B
+	CactusProj.DisplayName: Cactus Proj
+	WindCastProj.DisplayName: Wind Cast Proj
+	MoonProj.DisplayName: Moon Proj
+	FireThornProj.DisplayName: Fire Thorn Proj
+	WaverangProj.DisplayName: Waverang Proj
+	CrimsonScepterProj.DisplayName: Crimson Scepter Proj
+	ObsidianFistsProj.DisplayName: Obsidian Fists Proj
+}

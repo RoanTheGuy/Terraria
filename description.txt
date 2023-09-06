@@ -1,0 +1,11 @@
+
+Currently adds:
+
+*21 New Items
+ +11 weapons
+  -1 Melee
+  -4 Ranged
+  -6 magic
+ +5 Accessories
+ +5 Item materials
+*23 New item recipes
