@@ -9,7 +9,7 @@ namespace Accessories.Items.Weapons
 {
     public class FrostWand : ModItem
     {
-        // The Display Name and Tooltip of this item can be edited in the Localization/en-US_Mods.Accessories.hjson file.
+        // The Display Name and Tooltip of this item can be edited in the Localization/en-US_Mods.Accessories.hjson file.gesgrgdfsgf
 
         public override void SetDefaults()
         {
@@ -27,7 +27,7 @@ namespace Accessories.Items.Weapons
             Item.shootSpeed = 8f;
             Item.scale *= 1.2f;
             Item.noMelee = true;
-            Item.mana = 10;
+            Item.mana = 11;
             Item.shoot = ModContent.ProjectileType<Proj.FrostStaffProjB>();
 
         }
