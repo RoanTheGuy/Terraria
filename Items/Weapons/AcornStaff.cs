@@ -18,7 +18,7 @@ namespace Accessories.Items.Weapons
             Item.useTime = 32;
             Item.useAnimation = 32;
             Item.useStyle = 9;
-            Item.knockBack = 6;
+            Item.knockBack = 7;
             Item.value = 10000;
             Item.rare = 2;
             Item.UseSound = SoundID.Item1;
