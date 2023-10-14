@@ -25,7 +25,7 @@ namespace Accessories.Items.Weapons
             Item.rare = 2;
             Item.autoReuse = true;
             Item.shootSpeed = 8f;
-            Item.scale *= 1.2f;
+            Item.scale *= 1f;
             Item.noMelee = true;
             Item.mana = 11;
             Item.shoot = ModContent.ProjectileType<Proj.FrostStaffProjB>();
@@ -57,8 +57,13 @@ namespace Accessories.Items.Weapons
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            Projectile.NewProjectile(source, position, velocity, ModContent.ProjectileType<Proj.FrostStaffProjA>(), damage, knockback, player.whoAmI);
-            Projectile.NewProjectile(source, position, velocity, ModContent.ProjectileType<Proj.FrostStaffProjC>(), damage, knockback, player.whoAmI);
+
+
+
+
+
+
+
 
             float numberProjectiles = 5; //+ Main.rand.Next(3)  3, 4, or 5 shots
             float rotation = MathHelper.ToRadians(30);
@@ -70,9 +75,13 @@ namespace Accessories.Items.Weapons
                 Vector2 perturbedSpeed = velocity.RotatedBy(MathHelper.Lerp(-rotation, rotation, i / (numberProjectiles - 1))) * .7f; // Watch out for dividing by 0 if there is only 1 projectile.
                 Projectile.NewProjectile(source, position, perturbedSpeed, type, damage, knockback, player.whoAmI);
 
-            }     return true;
+            }
+
+            
 
 
+
+            return true;
         }
 
 

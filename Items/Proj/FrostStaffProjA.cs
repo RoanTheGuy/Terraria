@@ -27,26 +27,22 @@ namespace Accessories.Items.Proj
 
 
 
-        public override void Kill(int timeLeft)
-        {
-            // This code and the similar code above in OnTileCollide spawn dust from the tiles collided with. SoundID.Item10 is the bounce sound you hear.
-            Collision.HitTiles(Projectile.position + Projectile.velocity, Projectile.velocity, Projectile.width, Projectile.height);
-            SoundEngine.PlaySound(SoundID.Item10, Projectile.position);
-        }
-
         public override void AI()
         {
-            int dust1 = Dust.NewDust(Projectile.position, Projectile.width + 5, Projectile.height + 5, 92);
-            Main.dust[dust1].velocity = Projectile.velocity;
-            Main.dust[dust1].noGravity = true;
 
-            
+            base.AI();
+
+            Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2 - MathHelper.PiOver4 * Projectile.spriteDirection;
+
+            int halfProjWidth = Projectile.width / 2;
+            int halfProjHeight = Projectile.height / 2;
+
+            DrawOriginOffsetX = 0;
+            DrawOffsetX = -((32 / 2) - halfProjWidth);
+            DrawOriginOffsetY = -((32 / 2) - halfProjHeight);
+
         }
 
-        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
-        {
-            target.AddBuff(BuffID.Frostburn2, 180);
-        }
 
     }
 

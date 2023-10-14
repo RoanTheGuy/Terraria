@@ -166,6 +166,21 @@ Items: {
 		DisplayName: Obsidian Fists
 		Tooltip: ""
 	}
+
+	WyvernScale: {
+		DisplayName: Wyvern Scale
+		Tooltip: ""
+	}
+
+	ScarletTear: {
+		DisplayName: Scarlet Tear
+		Tooltip: ""
+	}
+
+	ScarletExecutioner: {
+		DisplayName: Scarlet Executioner
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -194,4 +209,5 @@ Projectiles: {
 	WaverangProj.DisplayName: Waverang Proj
 	CrimsonScepterProj.DisplayName: Crimson Scepter Proj
 	ObsidianFistsProj.DisplayName: Obsidian Fists Proj
+	ScarletExProj.DisplayName: Scarlet Ex Proj
 }

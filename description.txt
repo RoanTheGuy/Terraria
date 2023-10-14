@@ -1,11 +1,18 @@
 
-Currently adds:
+This mod adds some fun new weapons and accessories that perfectly fit into the vanilla progression(that means that they are also balanced).
 
-*21 New Items
- +11 weapons
-  -1 Melee
+I hope you will enjoy my mod ;))
+
+Mask of Oblivion adds:
+
+*26 New Items
+ +15 weapons
+  -4 Melee
   -4 Ranged
-  -6 magic
- +5 Accessories
+  -7 magic
+ +6 Accessories
  +5 Item materials
-*23 New item recipes
+*24 New item recipes
+And many more to come!
+
+P.S. This is my first time uploading something I coded, so don't expect a masterpiece :3

@@ -20,7 +20,6 @@ namespace Accessories.Items.Accessories.Boots
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.hasJumpOption_Cloud = true;
             player.jumpBoost = true;
             player.jumpSpeedBoost = 0.5f;
             player.frogLegJumpBoost = true;
@@ -28,6 +27,7 @@ namespace Accessories.Items.Accessories.Boots
             player.autoJump = true;
             player.rocketBoots = 1;
             player.moveSpeed += 1f;
+            // no double jump :/
             
 
             if (player.rocketFrame == true)  SoundEngine.PlaySound(SoundID.Item24);

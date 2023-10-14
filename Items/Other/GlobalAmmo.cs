@@ -14,7 +14,6 @@ namespace Accessories.Items.Other
             if (item.type == ItemID.Acorn)
             {
                 item.ammo = ItemID.Acorn;
-                item.shoot = ModContent.ProjectileType<Proj.AcornProj>();
 
             }
 
@@ -22,7 +21,6 @@ namespace Accessories.Items.Other
             if (item.type == ItemID.Cobweb)
             {
                 item.ammo = ItemID.Cobweb;
-                item.shoot = ModContent.ProjectileType<Proj.WebProj>();
 
             }
 

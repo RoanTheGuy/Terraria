@@ -16,7 +16,7 @@ namespace Accessories.Items.Weapons
             Item.height = 40;
             Item.useTime = 20;
             Item.useAnimation = 20;
-            Item.useStyle = 9;
+            Item.useStyle = 13;
             Item.knockBack = 6;
             Item.value = 10000;
             Item.rare = 2;
@@ -26,6 +26,7 @@ namespace Accessories.Items.Weapons
             Item.noUseGraphic = true;
             Item.noMelee = true;
             Item.mana = 9;
+
             
 
         }
@@ -33,11 +34,7 @@ namespace Accessories.Items.Weapons
 
         public override void AddRecipes()
         {
-            Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.DemoniteBar, 15);
-            recipe.AddIngredient(ItemID.ShadowScale, 10);
-            recipe.AddTile(TileID.Anvils);
-            recipe.Register();
+           
 
 
 

@@ -33,8 +33,8 @@ namespace Accessories.Items.Weapons
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.WaterBucket, 1);
-            recipe.AddIngredient(ItemID.SharkFin, 2);
+            recipe.AddIngredient(ItemID.PalmWood, 12);
+            recipe.AddIngredient(ItemID.WaterBucket, 2);
             recipe.AddIngredient(ItemID.Seashell, 5);
             recipe.AddIngredient(ItemID.Coral, 5);
             recipe.AddIngredient(ItemID.Starfish, 3);
@@ -42,16 +42,9 @@ namespace Accessories.Items.Weapons
             recipe.Register();
         }
 
-        public override bool CanUseItem(Player player)       //this make that you can shoot only 1 boomerang at once
+        public override bool CanUseItem(Player player)
         {
-            for (int i = 3; i < 1000; ++i)
-            {
-                if (Main.projectile[i].active && Main.projectile[i].owner == Main.myPlayer && Main.projectile[i].type == Item.shoot)
-                {
-                    return false;
-                }
-            }
-            return true;
+            return player.ownedProjectileCounts[Item.shoot] < 4;
         }
 
 

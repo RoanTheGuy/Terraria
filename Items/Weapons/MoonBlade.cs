@@ -54,6 +54,26 @@ namespace Accessories.Items.Weapons
             recipe2.AddIngredient(ItemID.Moonglow, 5);
             recipe2.AddTile(TileID.SkyMill);
             recipe2.Register();
+
+            Recipe recipe3 = CreateRecipe();
+            recipe3.AddIngredient(ItemID.GoldBroadsword, 1);
+            recipe3.AddIngredient(ItemID.CrimtaneBar, 5);
+            recipe3.AddIngredient(ItemID.Bone, 30);
+            recipe3.AddIngredient(ItemID.Cloud, 15);
+            recipe3.AddIngredient(ItemID.StoneBlock, 25);
+            recipe3.AddIngredient(ItemID.Moonglow, 5);
+            recipe3.AddTile(TileID.SkyMill);
+            recipe3.Register();
+
+            Recipe recipe4 = CreateRecipe();
+            recipe4.AddIngredient(ItemID.PlatinumBroadsword, 1);
+            recipe4.AddIngredient(ItemID.CrimtaneBar, 5);
+            recipe4.AddIngredient(ItemID.Bone, 30);
+            recipe4.AddIngredient(ItemID.Cloud, 15);
+            recipe4.AddIngredient(ItemID.StoneBlock, 25);
+            recipe4.AddIngredient(ItemID.Moonglow, 5);
+            recipe4.AddTile(TileID.SkyMill);
+            recipe4.Register();
         }
 
     }

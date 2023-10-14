@@ -41,16 +41,9 @@ namespace Accessories.Items.Weapons
         }
 
 
-        public override bool CanUseItem(Player player)       //this make that you can shoot only 1 boomerang at once
+        public override bool CanUseItem(Player player)
         {
-            for (int i = 2; i < 1000; ++i)
-            {
-                if (Main.projectile[i].active && Main.projectile[i].owner == Main.myPlayer && Main.projectile[i].type == Item.shoot)
-                {
-                    return false;
-                }
-            }
-            return true;
+            return player.ownedProjectileCounts[Item.shoot] < 3;
         }
 
 
